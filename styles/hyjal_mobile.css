@@ -1,0 +1,139 @@
+body{
+    background-color: #161A1E;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.header{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    background-color: #161A1E;
+}
+
+header>div{
+    padding: 20px;
+}
+
+.headerouvert{
+    background-color: transparent;
+}
+
+.bg1{
+    position: fixed;
+    background-color: #CDEBFF;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    transition: 0.4s;
+    transform: translateX(100%);
+    transition-delay: 0.4s;
+}
+
+.bg2{
+    position: fixed;
+    background-color: #B1A8FF;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    transition: 0.4s;
+    transform: translateX(100%);
+    transition-delay: 0.2s;
+}
+
+
+
+
+nav{
+    position: fixed;
+    background-color: #FFAEDA;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+    transition: 0.4s;
+    transform: translateX(200%);
+
+    display: flex;
+    padding-left: 15%;
+    align-items: center;
+
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+}
+
+.ouvert{
+    transition: 0.4s;
+    transform: translateX(0%);
+}
+
+.ouvertdelay1{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    transform: translateX(0%);
+}
+
+.ouvertdelay2{
+    transition: 0.4s;
+    transition-delay: 0.4s;
+    transform: translateX(0%);
+    color: #FFF8F9;
+}
+
+.menuouvert{
+    color: #FFF8F9;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page1{
+    align-items: flex-start;
+}
+
+.hyjal{
+    width: 80vw;
+}
+
+.titre{
+    padding-top: 100px;
+    font-size: 25pt;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(45deg, #CDEBFF, #B1A8FF, #FFAEDA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.details{
+    text-align: justify;
+}
