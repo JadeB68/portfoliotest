@@ -1,0 +1,46 @@
+nav{
+    font-size: 40pt;
+}
+
+
+.titre2{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20pt;
+}
+
+.rep{
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 20pt;
+}
+
+.details{
+    font-size: 16pt;
+}
+
+.titre3{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 20pt;
+}
+
+.p2{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.prestations{
+    text-align: end;
+}
+
+.contact{
+    text-align: end;
+}
