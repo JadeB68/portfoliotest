@@ -16,6 +16,29 @@ body{
     background: #ffd0ea;
   }
 
+  html::-webkit-scrollbar {
+    width: 10px;
+  }
+
+html::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+  }
+
+html::-webkit-scrollbar-thumb:active {
+    background: #2e2e2e;
+    border-radius: 10px;
+  }
 
 .header{
     z-index: 10;
@@ -117,7 +140,7 @@ nav{
 
 .titre{
     padding-top: 100px;
-    font-size: 40pt;
+    font-size: 30pt;
     text-transform: uppercase;
     font-weight: bolder;
     background: -webkit-linear-gradient(45deg, #CDEBFF, #B1A8FF, #FFAEDA);
@@ -220,6 +243,7 @@ section{
 
 img{
     margin-bottom: 50px;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(75, 65, 78, 0.4);
 }
 
 

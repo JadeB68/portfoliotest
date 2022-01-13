@@ -333,7 +333,8 @@ a{
 .portfolio1,
 .portfolio2,
 .portfolio3,
-.portfolio4{
+.portfolio4,
+.portfolio5{
     height: 80px;
     width: 100px;
     font-size: 12px;
@@ -344,40 +345,38 @@ a{
     background-color: #161A1E;
 }
 
-.portfolio1{
+.portfolio1,
+.portfolio4{
     border: solid 1px #CDEBFF;
 }
-.portfolio2{
+.portfolio2,
+.portfolio5{
     border: solid 1px #B1A8FF;
 }
 .portfolio3{
     border: solid 1px #FFAEDA;
 }
-.portfolio4{
-    border: solid 1px #CDEBFF;
-}
 
 .portfolio1:hover,
 .portfolio2:hover,
 .portfolio3:hover,
-.portfolio4:hover{
+.portfolio4:hover,
+.portfolio5:hover{
     transition: 0.1s;
     transform: translate( 10px, -10px);
 }
 
-.portfolio1:hover{
+.portfolio1:hover,
+.portfolio4:hover{
     box-shadow: -10px 10px 0px #CDEBFF;
 }
-.portfolio2:hover{
+.portfolio2:hover,
+.portfolio5:hover{
     box-shadow: -10px 10px 0px #B1A8FF;
 }
 .portfolio3:hover{
     box-shadow: -10px 10px 0px #FFAEDA;
 }
-.portfolio4:hover{
-    box-shadow: -10px 10px 0px #CDEBFF;
-}
-
 .desc{
     font-size: 9px;
     margin-bottom: 10px;
